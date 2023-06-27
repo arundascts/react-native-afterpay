@@ -35,12 +35,12 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/arundascts/react-native-afterpay",
-  "author": "Arun Das",
+  "repository": "https://github.com/brandingbrand/react-native-afterpay",
+  "author": "Chris Herman <chris.herman@brandingbrand.com> (https://github.com/crherman7)",
   "bugs": {
-    "url": "https://github.com/arundascts/react-native-afterpay/issues"
+    "url": "https://github.com/brandingbrand/react-native-afterpay/issues"
   },
-  "homepage": "https://github.com/arundascts/react-native-afterpay#readme",
+  "homepage": "https://github.com/brandingbrand/react-native-afterpay#readme",
   "dependencies": {
     "react-native-webview": "^10.10.2"
   },
@@ -65,18 +65,6 @@
     "release-it": "^13.5.8",
     "typescript": "^3.8.3"
   },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*",
-    "react-native-webview": "^10.10.2"
-  },
-  "jest": {
-    "preset": "react-native",
-    "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
-      "<rootDir>/lib/"
-    ]
-  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
@@ -86,61 +74,6 @@
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
-    ]
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
-    }
-  },
-  "eslintConfig": {
-    "extends": [
-      "@react-native-community",
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
-        }
-      ]
-    }
-  },
-  "eslintIgnore": [
-    "node_modules/",
-    "lib/"
-  ],
-  "prettier": {
-    "quoteProps": "consistent",
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5",
-    "useTabs": false
-  },
-  "@react-native-community/bob": {
-    "source": "src",
-    "output": "lib",
-    "targets": [
-      "commonjs",
-      "module",
-      "typescript"
     ]
   }
 }
