@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "12.0" }
-  s.source       = { :git => "https://github.com/brandingbrand/react-native-afterpay.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/afterpay/sdk-ios.git", :tag => "#{s.version}" }
 
   
   s.source_files = "ios/**/*.{h,m,mm,swift}"
