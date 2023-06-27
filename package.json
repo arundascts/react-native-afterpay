@@ -1,5 +1,5 @@
 {
-  "name": "@brandingbrand/react-native-afterpay",
+  "name": "react-native-afterpay",
   "version": "0.1.1",
   "description": "React Native bridge for AfterPay SDK",
   "main": "lib/commonjs/index",
